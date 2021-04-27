@@ -1,0 +1,9 @@
+##
+# Git Ignores
+##
+
+.DS_Store
+.vscode
+
+k8s_suspend_cronjobs
+
