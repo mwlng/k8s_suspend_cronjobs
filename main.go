@@ -95,6 +95,7 @@ func main() {
 		}
 		suspend := true
 		result.Spec.Suspend = &suspend
+		klog.Infof("Suspending cron job: %s\n", job.Name)
 		cronJob.UpdateCronJob(result)
 	}
 }
